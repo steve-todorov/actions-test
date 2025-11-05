@@ -3,7 +3,7 @@ runs:
   using: composite
   steps:
     - name: Reference my-action-a
-      uses: ./my-action-a
+      uses: steve-todorov/actions-test/my-action-a@main
 
     - name: Reference my-action-b
-      uses: ./my-action-a
+      uses: steve-todorov/actions-test/my-action-b@main
