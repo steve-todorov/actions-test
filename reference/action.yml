@@ -1,0 +1,9 @@
+name: reference
+runs:
+  using: composite
+  steps:
+    - name: Reference my-action-a
+      uses: ./my-action-a
+
+    - name: Reference my-action-b
+      uses: ./my-action-a

@@ -1,0 +1,7 @@
+name: my-action-b
+runs:
+  using: composite
+  steps:
+    - name: Hello world from b
+      shell: bash
+      run: echo "Hello world b"
